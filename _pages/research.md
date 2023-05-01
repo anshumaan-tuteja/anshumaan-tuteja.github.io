@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Research page
 date: April 29, 2023
 ---
