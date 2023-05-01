@@ -1,2 +1,4 @@
 name: Anshumaan Tuteja, University of Warwick
 markdown: kramdown
+
+include: ['_pages']
