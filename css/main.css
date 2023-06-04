@@ -49,14 +49,12 @@ ul.posts li {
 }
 
 .homepageContent img {
-  max-width: 35%;
+  max-width: 40%;
   margin-right: 20px;
 }
 
 .homepageContent .text {
   flex: 1;
   font-size: 1em;
-  line-height: 1.4em;
-  color: #333;
 }
 
