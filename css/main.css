@@ -42,16 +42,19 @@ ul.posts li {
     list-style: none;
 }
 
-.homepageContent {
+/* Flexible container for honepage image */
+.homepageContent { 
   display: flex;
   align-items: center;
 }
 
+// Child elements
 .homepageContent img {
-  max-width: 50%;
+  max-width: 60%;
   margin-right: 20px;
 }
 
 .homepageContent .text {
   flex: 1;
 }
+
