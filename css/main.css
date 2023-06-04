@@ -41,3 +41,17 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.homepageContent {
+  display: flex;
+  align-items: center;
+}
+
+.homepageContent img {
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.homepageContent .text {
+  flex: 1;
+}
