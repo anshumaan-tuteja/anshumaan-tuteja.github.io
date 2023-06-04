@@ -11,10 +11,12 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -68,6 +70,6 @@ ul.posts li {
 
 .homepageContent .text {
   flex: 1;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
