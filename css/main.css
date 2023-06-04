@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
-    width: 70%;
-    height: 100%; 
+    width: 80%;
+    height: 95%; 
 }
 
 
@@ -29,7 +29,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
 }
@@ -50,7 +50,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 ul.posts li {
@@ -58,6 +58,7 @@ ul.posts li {
 }
 
 /* Flexible container for honepage image */
+
 .homepageContent { 
   display: flex;
   align-items: center;
@@ -70,6 +71,7 @@ ul.posts li {
 
 .homepageContent .text {
   flex: 1;
-  font-size: 0.8em;
+  font-size: 1.2em;
+  line-height: 1.4em;  
 }
 
