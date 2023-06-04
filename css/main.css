@@ -48,9 +48,8 @@ ul.posts li {
   align-items: center;
 }
 
-// Child elements
 .homepageContent img {
-  max-width: 30%;
+  max-width: 20%;
   margin-right: 20px;
 }
 
