@@ -88,6 +88,7 @@ ul.posts li {
 
   @media (min-width: 500px) {
     main {
+      display: flex;
       flex-wrap: nowrap;
     } 
   }
