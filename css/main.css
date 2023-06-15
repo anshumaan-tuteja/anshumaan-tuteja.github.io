@@ -84,7 +84,7 @@ ul.posts li {
    flex-wrap: nowrap;
    }
 
-  @media (max-width: 800px) and (orientation: portrait) {
+  @media (max-width: 600px) and (orientation: portrait) {
     main {
       display: flex;
       flex-wrap: wrap;
