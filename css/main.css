@@ -78,19 +78,25 @@ ul.posts li {
 
 /* Responsive web design for smaller screens */
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
   main {
    display: flex;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    }
 
-  @media (min-width: 500px) {
+  @media (max-width: 800px) and (orientation: portrait) {
     main {
       display: flex;
-      flex-wrap: nowrap;
-    } 
+      flex-wrap: wrap;
+    }
+
+.homepageContent img {
+    width: 100px;
+    height: 100px;
+    border-radius: 70%
+  margin-right: 20px;
+}
+      
   }
 </style>
 
