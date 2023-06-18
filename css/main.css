@@ -84,8 +84,9 @@ ul.posts li {
    flex-wrap: nowrap;
    }
 
-  @media (max-width: 600px)  {
+  @media (max-width: 900px)  {
     main {
+      color: magenta  
       display: flex;
       flex-wrap: wrap;
     }
