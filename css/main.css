@@ -100,7 +100,9 @@ main {
     }
 
       body {
-          color: purple;  
+           background-color: color: var(--color-light);;
+          color: var(--color-dark)
+         /* color: purple;  */
       }
 
 .homepageContent img {
