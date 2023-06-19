@@ -88,6 +88,8 @@ ul.posts li {
 main {
    display: flex;
    flex-wrap: wrap;
+   display: grid;
+   grid-template-rows: 20% auto;
    }
 
 /* Responsive web design for large screens */
@@ -97,12 +99,16 @@ main {
       flex-wrap: nowrap;
       width: 70%;
       height: 95%; 
+      display: grid;
+      grid-template-columns: 20% auto;
     }
 
+      main {
+    
+  }
+
       body {
-           background-color: color: var(--color-light);;
-          color: var(--color-dark)
-         /* color: purple;  */
+          color: purple; 
       }
 
 .homepageContent img {
