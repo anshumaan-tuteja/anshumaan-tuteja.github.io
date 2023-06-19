@@ -1,3 +1,5 @@
+/* Responsive web design for small screens (mobiles, tablets) */
+
 body {
     color: black;
     margin: 60px auto;
@@ -8,8 +10,6 @@ body {
 div {
     /* background: #767775; */
     flex-basis: 100%;
-    height: 100px;
-    margin-bottom: 0.5rem;
   }
 
 nav ul, footer ul {
@@ -88,12 +88,12 @@ main {
    flex-wrap: wrap;
    }
 
-/* Responsive web design for larger screens */
+/* Responsive web design for large screens */
 
-  @media (min-width: 1250px)  {
+  @media (min-width: 768px)  {
     main {
       flex-wrap: nowrap;
-      width: 80%;
+      width: 70%;
       height: 95%; 
     }
 
