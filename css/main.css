@@ -69,6 +69,7 @@ ul.posts li {
 .homepageContent { 
   display: flex;
   align-items: center;
+    flex-basis: 100%;
 }
 
 .homepageContent img {
@@ -81,6 +82,7 @@ ul.posts li {
   flex: 1;
   font-size: 1.2em;
   line-height: 1.4em;  
+    color: blue;
 }
 
 main {
@@ -109,5 +111,12 @@ main {
       div {
       flex-basis: 50%;
     }
+
+.homepageContent .text {
+  flex: 1;
+  font-size: 1.2em;
+  line-height: 1.4em;  
+    color: black;
+}
       
   }
