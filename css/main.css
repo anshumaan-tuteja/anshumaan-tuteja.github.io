@@ -104,6 +104,7 @@ main {
 .homepageContent img {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
       div {
       flex-basis: 50%;
