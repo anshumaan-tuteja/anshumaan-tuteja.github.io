@@ -1,0 +1,105 @@
+/* This file is an attemot at a cleaner page */
+
+body {
+    margin: 60px auto;
+    width: 95%;
+    height: 95%; 
+}
+
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.content {
+ min-height: calc(100% - 100px);
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.2em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+/* Flexible container for honepage image */
+
+.homepageContent { 
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.homepageContent img {
+    width: 200px;
+    height: 200px;
+  margin-right: 20px;
+}
+
+.homepageContent .text {
+  flex: 1;
+  font-size: 1.2em;
+  line-height: 1.4em;  
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 30% auto; */
+    grid-template-rows: 20% auto;
+    gap: 10px;
+}
+
+@media (min-width: 800px) {
+  main {
+    color: blue;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    /* grid-template-rows: 200px auto; */
+    gap: 10px;
+}
+
+  
+  
+}
