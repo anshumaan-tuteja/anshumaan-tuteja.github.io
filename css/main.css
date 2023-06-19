@@ -90,7 +90,7 @@ main {
 
 /* Responsive web design for larger screens */
 
-  @media (min-width: 700px)  {
+  @media (min-width: 1250px)  {
     main {
       color: purple;  
       flex-wrap: nowrap;
