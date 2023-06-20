@@ -90,6 +90,7 @@ ul.posts li {
   display: flex;
   align-items: center;
     flex-basis: 100%;
+    flex-direction: column;
 }
 
 .homepageContent img {
