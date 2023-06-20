@@ -30,10 +30,11 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+   font-size:1.5em;
 }
 
 a {
-    font-size: 1.8em
+    font-size: 1.8em;
     text-decoration: none;
     color: #800080;
 }
@@ -67,7 +68,7 @@ p {
 
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1em;
     padding: 20px;
     position: fixed;
     bottom: 0;
