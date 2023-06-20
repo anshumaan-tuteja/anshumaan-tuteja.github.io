@@ -124,5 +124,8 @@ main {
   line-height: 1.4em;  
     color: blue;
 }
+nav ul li, footer ul li {
+   color: purple;
+}
       
   }
