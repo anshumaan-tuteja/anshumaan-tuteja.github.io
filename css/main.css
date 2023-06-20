@@ -4,6 +4,8 @@ main {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
+   width: 70%;
+   height: 95%; 
    }
 
 body {
