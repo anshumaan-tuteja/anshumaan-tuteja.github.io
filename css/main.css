@@ -1,5 +1,11 @@
 /* Responsive web design for small screens (mobiles, tablets) */
 
+main {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   }
+
 body {
     color: #333;
     margin: 60px auto;
@@ -86,12 +92,6 @@ ul.posts li {
     color: blue;
 }
 
-main {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   }
-
 /* Responsive web design for large screens */
 
   @media (min-width: 768px)  {
@@ -104,8 +104,8 @@ main {
 
    
 .homepageContent img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     maegin-left: 30px;
     margin-right: 30px;
