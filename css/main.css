@@ -92,6 +92,11 @@ ul.posts li {
     list-style: none;
 }
 
+/* Set height between list items */
+ul ol {
+   line-height: 1.5;
+}
+
 /* Flexible container for honepage image */
 
 .homepageContent { 
