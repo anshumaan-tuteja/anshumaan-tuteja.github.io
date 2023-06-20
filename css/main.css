@@ -73,6 +73,7 @@ p {
  min-height: calc(100% - 100px);
 }
 
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
@@ -81,6 +82,16 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+/* Keep the footer at the bottom */
+.fixFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixFooter .content {
+  flex: 1 1 auto;
 }
 
 ul.posts { 
