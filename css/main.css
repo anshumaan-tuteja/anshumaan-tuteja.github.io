@@ -1,7 +1,7 @@
 /* Responsive web design for small screens (mobiles, tablets) */
 
 body {
-    color: black;
+    color: #800080;
     margin: 60px auto;
     width: 95%;
     /* height: 95%; */
@@ -26,7 +26,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: purple;
+    color: #9a009a;
 }
 a:hover {
     text-decoration: underline;
@@ -122,7 +122,7 @@ main {
 
 a {
     text-decoration: none;
-    color: purple;
+    color: #9a009a;
 }
       
   }
