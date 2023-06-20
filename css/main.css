@@ -93,7 +93,7 @@ ul.posts li {
 }
 
 /* Set height between list items */
-ul ol {
+ul, ol {
    line-height: 1.5;
 }
 
