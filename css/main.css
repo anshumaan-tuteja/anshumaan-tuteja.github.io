@@ -93,8 +93,8 @@ ul.posts li {
 }
 
 .homepageContent img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   margin-right: 20px;
 }
 
@@ -102,7 +102,6 @@ ul.posts li {
   flex: 1;
   font-size: 1.2em;
   line-height: 1.4em;  
-    color: blue;
 }
 
 /* Responsive web design for large screens */
