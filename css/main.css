@@ -1,6 +1,7 @@
 /* Responsive web design for small screens (mobiles, tablets) */
 
 main {
+   min-height: 100vh;
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
@@ -11,6 +12,7 @@ main {
 body {
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     color: #333;
     margin: 60px auto;
@@ -80,9 +82,8 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
-    padding: 10px;
-    position: relative;
-    margin-top: auto;
+    padding: 5px;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
