@@ -5,8 +5,8 @@ main {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-   width: 70%;
-   height: 95%; 
+   width: 90%;
+   /* height: 95%;  */
    }
 
 body {
@@ -15,8 +15,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     color: #333;
-    margin: 30px auto;
-    width: 95%;
+    margin: 40px auto;
+    width: 90%;
     /* height: 95%; */
 }
 
@@ -132,9 +132,15 @@ ul, ol {
     main {
       flex-wrap: nowrap;
       width: 70%;
-      height: 95%; 
+      /* height: 95%; */
       
     }
+
+body {
+    flex-wrap: nowrap;
+   width: 70%;
+    /* height: 95%; */
+}
 
 .homepageContent { 
  flex-direction: row;
