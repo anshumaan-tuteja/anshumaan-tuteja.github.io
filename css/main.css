@@ -134,9 +134,7 @@ ul, ol {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
-  background: #800080;
-  color: white;
+  color: #800080;
 }
 
 /* Add hover effect */
