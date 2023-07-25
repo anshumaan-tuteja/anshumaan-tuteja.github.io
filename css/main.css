@@ -129,11 +129,12 @@ ul, ol {
 
 /* Style on icons */
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 30px;
+  width: 25px;
   text-align: center;
   text-decoration: none;
+  margin: 10px 10px 
   border-radius: 50%;
   background: #800080;
   color: white;
