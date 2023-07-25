@@ -127,6 +127,22 @@ ul, ol {
   text-align: justify; 
 }
 
+/* Style on icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #800080;
+  border-radius: 50%;
+}
+
+/* Add hover effect */
+.fa:hover {
+  opacity: 0.8;
+}
+
 /* Responsive web design for large screens */
 
   @media (min-width: 768px)  {
