@@ -6,7 +6,7 @@ main {
    flex-wrap: wrap;
    flex-direction: column;
    width: 95%;
-   margin-top: 75px
+   margin-top: 150px
    /* height: 95%;  */
    }
 
@@ -36,10 +36,13 @@ nav {
 }
 
 nav a {
+   float: left;
+   display: block;
+   padding: 14px 16px;
    font-size: 1em;
    text-align: center;
    text-decoration: none;
-   color: white;
+   color: #FFFFFF;
 }
 
 nav a:hover {
