@@ -6,6 +6,7 @@ main {
    flex-wrap: wrap;
    flex-direction: column;
    width: 95%;
+   margin-top: 20px
    /* height: 95%;  */
    }
 
@@ -24,6 +25,25 @@ div {
     /* background: #008000; */
     flex-basis: 100%;
   }
+
+nav {
+  overflow: hidden;
+  background-color: #800080;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+   font-size: 1em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+  background: #ddd;
+  color: #800080;
+}
 
 /* Target nav ul and footer ul */
 nav ul, footer ul {
