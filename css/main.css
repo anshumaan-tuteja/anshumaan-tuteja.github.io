@@ -6,7 +6,7 @@ main {
    flex-wrap: wrap;
    flex-direction: column;
    width: 95%;
-   margin-top: 20px
+   margin-top: 50px
    /* height: 95%;  */
    }
 
@@ -31,6 +31,7 @@ nav {
   background-color: #800080;
   position: fixed;
   top: 0;
+  left: 0; 
   width: 100%;
 }
 
