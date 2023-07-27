@@ -6,6 +6,7 @@ main {
    flex-wrap: wrap;
    flex-direction: column;
    width: 95%;
+   margin-top: 150px;
    /* height: 95%;  */
    }
 
@@ -37,7 +38,7 @@ nav {
 nav a {
    float: left;
    display: block;
-   padding: 10px 10px;
+   padding: 8px 10px;
    font-size: 1em;
    text-align: center;
    text-decoration: none;
@@ -45,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  background: black;
+  background: #ddd;
   text-decoration: none; 
   color: #800080;
 }
@@ -173,6 +174,7 @@ ul, ol {
     main {
       flex-wrap: nowrap;
       width: 90%;
+      margin-top: 200px; 
       /* height: 95%; */
       
     }
@@ -208,7 +210,7 @@ body {
 }
 
 nav a {
-   padding: 10px 25px;
+   padding: 8px 25px;
 }
 
   }
