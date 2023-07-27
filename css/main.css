@@ -6,7 +6,6 @@ main {
    flex-wrap: wrap;
    flex-direction: column;
    width: 95%;
-   margin-top: 150px;
    /* height: 95%;  */
    }
 
@@ -25,31 +24,6 @@ div {
     /* background: #008000; */
     flex-basis: 100%;
   }
-
-nav {
-  overflow: hidden;
-  background-color: #800080;
-  position: fixed;
-  top: 0;
-  left: 0; 
-  width: 100%;
-}
-
-nav a {
-   float: left;
-   display: block;
-   padding: 8px 10px;
-   font-size: 1em;
-   text-align: center;
-   text-decoration: none;
-   color: #FFFFFF;
-}
-
-nav a:hover {
-  background: #ddd;
-  text-decoration: none; 
-  color: #800080;
-}
 
 /* Target nav ul and footer ul */
 nav ul, footer ul {
@@ -174,7 +148,6 @@ ul, ol {
     main {
       flex-wrap: nowrap;
       width: 90%;
-      margin-top: 200px; 
       /* height: 95%; */
       
     }
@@ -207,10 +180,6 @@ body {
   line-height: 1.4em;  
   text-align: justify;
    
-}
-
-nav a {
-   padding: 8px 25px;
 }
 
   }
