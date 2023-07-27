@@ -6,7 +6,6 @@ main {
    flex-wrap: wrap;
    flex-direction: column;
    width: 95%;
-   margin-top: 150px
    /* height: 95%;  */
    }
 
@@ -38,7 +37,7 @@ nav {
 nav a {
    float: left;
    display: block;
-   padding: 14px 16px;
+   padding: 10px 10px;
    font-size: 1em;
    text-align: center;
    text-decoration: none;
@@ -46,8 +45,8 @@ nav a {
 }
 
 nav a:hover {
-  background: #ddd;
-  text-decoration: none 
+  background: black;
+  text-decoration: none; 
   color: #800080;
 }
 
@@ -206,6 +205,10 @@ body {
   line-height: 1.4em;  
   text-align: justify;
    
+}
+
+nav a {
+   padding: 10px 25px;
 }
 
   }
