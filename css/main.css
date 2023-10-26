@@ -163,9 +163,9 @@ body {
 }
 
 .homepageContent img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 350px;
+    height: 300px;
+    #border-radius: 50%;
     maegin-left: 30px;
     margin-right: 30px;
 }
